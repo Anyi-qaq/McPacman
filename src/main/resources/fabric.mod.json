@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "archmod",
+  "version": "1.0.0",
+  "name": "Arch Linux Pacman for Minecraft",
+  "description": "在Minecraft中集成Arch Linux包管理器和Modrinth mod下载功能",
+  "authors": ["你的名字"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.archmod.ArchMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.19"
+  }
+}
